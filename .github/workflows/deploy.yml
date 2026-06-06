@@ -31,7 +31,6 @@ jobs:
           script: |
             echo "Starting deployment..."
 
-            # Remove existing website files
             sudo rm -rf /var/www/html/*
 
             # Copy new files
